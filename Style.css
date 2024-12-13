@@ -1,0 +1,43 @@
+:root {
+  font-family: "Open Sans", sans-serif;
+  line-height: auto;
+}
+img {
+  border-radius: 28px;
+  background-size: contain
+}
+
+#page {
+  width: 1120px;
+  background-color: #F5F4F0;
+  padding: 88px 80px 137px 80px;
+  margin: auto;
+}
+.headline {
+  font-size: 16px;
+  color: #E1624F;
+  font-weight: bold;
+}
+.headline2 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #E1624F;
+}
+h1{
+  font-size: 36px;
+  font-weight: bold;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 28px;
+}
+li {
+  color: #0C51A7;
+  font-weight: bold;
+}
+
+ul li::marker {
+  color: #333333;
+}
