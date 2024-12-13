@@ -50,9 +50,16 @@ padding-top: 8px;
 
 /* separação de padrão */
 
+ul {
+  padding-left: 20px;
+}
+ 
+
  li {
   color: #0C51A7;
   font-weight: bold;
+  /* margin-left: 20px; */
+
 }
 #beomeo img {
   padding-top: 48px;
@@ -87,6 +94,17 @@ h2 {
   color: #E95E10;
 }
 
+#description {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  img
+}
+footer img {
+  vertical-align: middle;
+}
 ul li::marker {
   color: #333333;
 }
