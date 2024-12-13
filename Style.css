@@ -1,3 +1,7 @@
+* { 
+  margin: 0;
+  padding: 0;
+}
 :root {
   font-family: "Open Sans", sans-serif;
   line-height: auto;
@@ -17,25 +21,70 @@ img {
   font-size: 16px;
   color: #E1624F;
   font-weight: bold;
+  padding-bottom: 8px;
 }
 .headline2 {
   font-size: 28px;
   font-weight: bold;
   color: #E1624F;
+  padding-top: 64px;
+  padding-bottom: 2px;
 }
 h1{
   font-size: 36px;
   font-weight: bold;
 }
+#busan img {
+  padding-bottom: 24px;
+  padding-top: 40px;
+}
+#busan p {
+  padding-bottom: 40px;
+  text-align: center;
+  font-style: italic;
+}
+#destinos p {
+padding-bottom: 64px;
+padding-top: 8px;
+}  
+
+/* separação de padrão */
+
+ li {
+  color: #0C51A7;
+  font-weight: bold;
+}
+#beomeo img {
+  padding-top: 48px;
+  
+}
+#parque img {
+  padding-top: 48px;
+ 
+}
+ p + P {
+  font-weight: bold;
+  color: #333333;
+  padding-top: 20px;
+}
+
+h3 {
+font-size: 28px;
+padding-top: 20px;
+padding-bottom: 4px;
+}
+
 h2 {
   font-size: 32px;
 }
-h3 {
-  font-size: 28px;
+#purple{
+  color: #591B98;
 }
-li {
-  color: #0C51A7;
-  font-weight: bold;
+#pink {
+  color: #E5245E;
+}
+#orange {
+  color: #E95E10;
 }
 
 ul li::marker {
